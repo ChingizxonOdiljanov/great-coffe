@@ -240,8 +240,10 @@ body {
 .position-container{
     display: flex;
     gap: 30px;
+    justify-content: center;
     position: relative;
     bottom: 200px;
+    
 }
 
 .position__div{
@@ -252,7 +254,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 40px;
 }
 
 .position__img{
@@ -284,3 +285,98 @@ body {
     color: #FEFCF7;
 }
 
+/* CHOOSE */
+
+.choose-container{
+    padding-left: 100px;
+}
+
+.choose__nav{
+    display: flex;
+    gap: 95px;
+    margin-bottom: 67px;  
+}
+
+.choose__main--title{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 67px;
+    /* identical to box height, or 133% */
+    color: #83888F;
+    margin-bottom: 80px;   
+}
+
+.choose__nav--img{
+    display: flex;
+    gap: 340px;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 67px;
+}
+
+.choose__div{
+    display: flex;
+    flex-direction: column;
+}
+
+.choose__img{
+    background: #FEFCF7;
+}
+
+.choose-title{
+    margin: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */  
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+
+.choose__h4{
+    margin: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+    color: #333D4B;
+    width: 255px;
+    height: 73px;
+    margin-bottom: 42px;
+}
+
+
+.choose__desk{
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */    
+    color: #333D4B;
+    width: 285px;
+    height:130px;
+}
+
+.choose__a{
+    padding: 15px 31px;
+    border-radius: 6px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #FEFCF7;
+    background: #66D2CF;
+    transition: .2s;
+}
